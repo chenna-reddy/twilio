@@ -13,10 +13,16 @@ Replace following parameters in `application.properties` file
     Replace with AUTH TOKEN from Twilio Console
 
 ## How to Run
+
+### Maven
 ```bash
 ./mvnw spring-boot:run
 ```
 
+### Gradle
+```bash
+./gradlew bootRun
+```
 ## Usage
 
 ### Get Configuration
